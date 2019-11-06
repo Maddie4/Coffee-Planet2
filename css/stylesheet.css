@@ -1,0 +1,203 @@
+.clg{
+    background-color: lightgrey;
+   
+ border: solid 1px black;
+
+}
+
+
+
+.bg-color{
+    background-color: #101010; }
+
+
+
+.carousel-inner img {
+    width: 100%;
+    height: 500px;
+  }
+
+
+.carousel-inner h1, p{
+font-family: jameel noori nastaleeq;
+}
+
+ul{
+padding-left:4;
+}
+.slice-content__heading {
+    color: #000000;
+    margin: 0 0 1rem 0;
+    padding: 0px;
+    font-family: sans-serif;
+ 
+}
+
+h1{
+
+font-family:Calibri;
+padding:10px;
+
+	 letter-spacing: 3px;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+p{
+word-spacing: 6px;
+padding:2px;
+font-family: sans-serif;
+text-align: center;
+}
+.img,.img_index {
+    padding:20px;
+
+}
+
+.h1{
+marging:0px;
+font-family:Calibri;
+padding:0px;
+
+	 letter-spacing: 3px;
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+.p2{
+
+word-spacing: 6px;
+padding:4px;
+font-family: sans-serif;
+text-align: center;
+}
+img{ object-fit: cover;}
+.img {
+    padding:20px;
+    float:left;
+    max-width: 100%;
+    display: block;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 100ms;
+    height: auto;
+}
+li a:hover
+{
+background-color:gray;
+}
+
+.color
+{
+color:black;
+}
+
+.franchise
+{
+padding:10px;
+margin:30px;
+}
+.historyimg
+{
+float:right;
+
+
+}
+.dropdown{
+margin:1px;
+padding:1px;
+list-style:none;
+display:none;
+}
+
+.navbar-nav li:hover > ul{display:block;}
+.dropdown li
+{
+background-color:#101010;
+display:block;
+text-align:center;
+
+
+
+}
+h4{text-align:center;}
+.footer
+{
+    width:100%;
+  
+   display: block;
+
+}
+.inner-footer
+{
+    width:95%;
+    height: 300px;
+    margin: auto;
+    padding: 30px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.footer-items
+{
+    width: 25%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.footer-items h1
+{
+  padding: 10px 0;
+  font-size: 25px;
+  color: 
+  text-transform:uppercase;
+
+}
+.footer-items p
+{
+    color:grey;
+    font-size: 16px;
+   text-align: justify;
+   line-height: 25px;
+}
+.border
+{
+    height: 2px;
+    width: 40px;
+    background: #ff9800;
+
+}
+.footer-bottom{
+    padding: 10px;
+    color: black;
+    font-size: 12px;
+}
+@media screen and (max-width: 3000px)
+
+{
+    .footer-items
+    {
+        width: 30%;
+    }
+}
+@media screen and (max-width: 1085px)
+
+{
+    .footer-items
+    {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px)
+
+{
+    .footer-items
+    {
+        width: 100%;
+    }
+}
+
